@@ -47,6 +47,16 @@ nav#top-nav span{
   color:#7e7e7e;
 }
 
+.clearfix{
+  width: 100%;
+  clear:both;
+}
+
+#front-carousel{
+  background-color: #272727;
+  padding-bottom: 10vh;
+}
+
 #front-carousel>div{
     background-color: #272727;
 }
@@ -56,7 +66,7 @@ nav#top-nav span{
   margin: 0 5vw 0 5vw;
   height: 75vh;
   width: 72vw;
-  background-image: url(carouselHouse.jpg);
+  background-image: url(../Images/carouselHouse.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 15vh;
@@ -114,4 +124,90 @@ nav#top-nav span{
 
 .front-carousel-minwin i:first-child{
   color: #cee002;
+}
+
+
+/*FRONT ABOUT US*/
+#front-about-us{
+  padding: 10vh 20vw;
+  background-color: #272727;
+}
+
+
+.front-about-us-text{
+  width: 30vw;
+  height: 80vh;
+  float: left;
+}
+
+.front-about-us-text>h4{
+    color: #cee002;
+    letter-spacing: 0.1vw;
+}
+
+.front-about-us-text>h2{
+  color: white;
+  font-size: 3.5vh;
+  padding-top: 3vh;
+}
+
+.front-about-us-text>p{
+  padding-top: 7vh;
+  color: #7e7e7e;
+  line-height: 3vh;
+  font-size: 1.6vh;
+}
+
+.front-about-us-text>div{
+  height: 15vh;
+  width: 15vh;
+  border: 5px solid #cee002;
+  margin-top: 22vh;
+}
+
+.front-about-us-square-text{
+  padding: 0.1px;
+  margin-top: 2vh;
+  margin-left: 2.8vw;
+  width: 14.5vw;
+}
+.front-about-us-square-text>h3:first-child{
+  color: white;
+  font-size:10vh;
+  float: left;
+
+}
+
+.front-about-us-square-text>h3:nth-child(2){
+  margin-top: 1.4vh;
+  margin-left: 0.3vw;
+  color: white;
+  width: 8vw;
+  font-size: 2.5vh;
+  font-weight: normal;
+  float: right;
+
+}
+
+.front-about-us-picture{
+  width: 28vw;
+  height: 80vh;
+  float: right;
+}
+
+.front-about-us-dots{
+  width: 23vw;
+  height: 40vh;
+  margin-top: 40vh;
+  background: url(../Images/dots.png) 0 0 repeat;
+  padding: 0.1px;
+}
+
+.front-about-us-dots>div{
+  width: 25vw;
+  height: 70vh;
+  background-image: url(../Images/frontAboutUs.jpg);
+  background-size: cover;
+  margin-top: -40vh;
+  margin-left: 5vw;
 }
