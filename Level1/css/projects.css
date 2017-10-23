@@ -24,9 +24,27 @@
 }
 
 #front-projects>.nav h2{
-  font-size: 3em;  
+  font-size: 3em;
 }
 
 #front-projects>.nav{
   padding:2em 0;
+  text-align: left;
+}
+
+#front-projects>.nav>div a{
+    display: inline-block;
+}
+
+#front-projects>.nav>div{
+  text-align: right;
+}
+
+
+#front-projects>.nav>div a:first-child{
+  padding-left: 200px;
+}
+
+#front-projects>.nav>div a{
+  padding-right: 50px;
 }
