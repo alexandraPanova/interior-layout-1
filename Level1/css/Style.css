@@ -211,3 +211,138 @@ nav#top-nav span{
   margin-top: -40vh;
   margin-left: 5vw;
 }
+
+
+#front-projects{
+  background-color: #272727;
+}
+
+#front-projects>.carousel, #front-projects>.nav{
+
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#front-projects>.nav{
+  color: white;
+}
+
+#front-projects>.nav a{
+  font-weight: bold;
+}
+
+#front-projects figure{
+  width: 360px;
+  height: 485px;
+  display: inline-block;
+  position: relative;
+}
+
+#front-projects img{
+  width: 100%
+}
+
+#front-projects p{
+  display: none;
+}
+
+#front-projects figure:not(:last-child){
+  margin-right: 35px;
+}
+
+#front-projects>.nav h2,#front-projects>.nav div{
+  display: inline-block;
+  vertical-align:middle;
+}
+
+#front-projects>.nav h2{
+  font-size: 3em;
+}
+
+#front-projects>.nav{
+  padding:2em 0;
+  text-align: left;
+}
+
+#front-projects>.nav>div a{
+    display: inline-block;
+}
+
+#front-projects>.nav>div{
+  text-align: right;
+}
+
+
+#front-projects a:visited{
+  color: white;
+}
+
+
+#front-projects>.nav>div a:first-child, #front-projects>.nav>div a:first-child:visited{
+  padding-left: 200px;
+  color:  #cee002;
+}
+
+
+#front-projects>.nav>div a:last-child, #front-projects>.nav>div a:last-child:visited{
+  color:  #7e7e7e;
+  font-style: italic;
+}
+
+#front-projects>.nav>div a{
+  padding-right: 50px;
+}
+
+#front-projects figcaption{
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-family: Verdana;
+  width: 150px;
+  color: white;
+}
+
+#front-projects figcaption h3{
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  height: 140px;
+  padding: 0.1px;
+}
+
+#front-projects figcaption p{
+  height: 115px;
+  font-size: 0.9em;
+}
+
+#front-projects figcaption a{
+  font-weight: bold;
+}
+
+#front-projects figure:hover:before{
+  content: "";
+  background-color: rgba(206, 224, 2, 0.79);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+#front-projects figure:hover h3, figure:hover a{
+  color:black;
+  transition: 0.5s;
+}
+
+#front-projects figure:hover h3,figure:hover p{
+  position: relative;
+  top:-140px;
+  transition: 0.5s;
+}
+
+#front-projects figure:hover p{
+  color: black;
+  display: block;
+  width: 300px;
+  transition: 0.5s;
+}
