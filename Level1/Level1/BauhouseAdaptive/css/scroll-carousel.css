@@ -1,0 +1,50 @@
+#front-carousel{
+  background-color: #777;
+  width: 90%;
+  height: 70vh;
+  margin:10vh auto;
+  position: relative;
+}
+
+#front-carousel figure{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  top:0;
+  left: 0;
+  opacity: 0;
+  font-size: 200px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+#front-carousel .paginator{
+  position: absolute;
+  z-index: 1;
+}
+
+#front-carousel figure:first-child{
+  background-color: red;
+}
+
+#front-carousel figure:nth-child(2) {
+  background-color: blue;
+}
+
+#front-carousel figure:last-child{
+  background-color: green;
+}
+
+/*cogda na nih ucazivaet activnaea ssilka*/
+#s-1:target{
+  opacity:1;
+}
+
+#s-2:target{
+  opacity:1;
+}
+
+#s-3:target{
+  opacity:1;
+}
