@@ -24,7 +24,7 @@ body{
   height: 100%;
   display: inline-block;
   position: relative;
-
+  transition: 3s;
   /*animation: sliding 10s infinite;*/
 }
 
@@ -242,7 +242,10 @@ body{
     height:  100%;
   }
 }
+#front-carousel .slides figure#s-1{
 
+  transition: 1s;
+}
 #front-carousel .slides figure#s-1:target{
   left: 0;
 }
